@@ -1,0 +1,14 @@
+#initialRoot {
+    -fx-background-color: #f0b4c6;
+    -fx-pref-height: 400.0;
+    -fx-pref-width: 600.0;
+}
+
+.button {
+    -fx-pref-height: 215.0;
+    -fx-pref-width: 75.0;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+    -fx-font-family: Marlett;
+    -fx-font-size: 18.0;
+}

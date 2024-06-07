@@ -1,0 +1,40 @@
+#serverRoot {
+    -fx-background-color: #f0b4c6;
+    -fx-pref-height: 400.0;
+    -fx-max-height: 400.0;
+    -fx-pref-width: 600.0;
+    -fx-max-width: 600.0;
+}
+
+#welcomeText {
+    -fx-fill: #cf6d6d;
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 0.0;
+    -fx-text-alignment: CENTER;
+    -fx-wrap-text: 228.0390625;
+    -fx-font-family: "Brush Script MT";
+    -fx-font-style: italic;
+    -fx-font-size: 72.0;
+}
+
+#updatesText {
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 0.0;
+    -fx-text-alignment: CENTER;
+    -fx-wrap-text: 259.939453125;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-size: 18.0;
+}
+
+.list-view {
+    -fx-pref-height: 200.0;
+    -fx-max-height: 200.0;
+    -fx-pref-width: 285.0;
+    -fx-max-width: 285.0;
+}
+
+.img-view {
+    -fx-image: url("text_bubbles.png");
+    -fx-pref-height: 102.0;
+    -fx-pref-width: 138.0;
+}

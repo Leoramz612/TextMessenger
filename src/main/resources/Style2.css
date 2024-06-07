@@ -1,0 +1,185 @@
+#clientRoot {
+    -fx-background-color: #f0b4c6;
+    -fx-pref-height: 400.0;
+    -fx-max-height: 400.0;
+    -fx-pref-width: 600.0;
+    -fx-max-width: 600.0;
+}
+
+#chooseMessage {
+    -fx-fill: #cf6d6d;
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 0.0;
+    -fx-text-alignment: CENTER;
+    -fx-wrap-text: 507.853515625;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-size: 36.0;
+}
+
+#outermost {
+    -fx-pref-height: 100.0;
+    -fx-pref-width: 590.0;
+}
+
+#ibox {
+    -fx-alignment: CENTER;
+    -fx-pref-height: 41.0;
+    -fx-pref-width: 182.0;
+}
+
+#gbox {
+    -fx-alignment: CENTER;
+    -fx-pref-height: 100.0;
+    -fx-pref-width: 178.0;
+    -fx-padding: 0 0 0 45.0;
+}
+
+#ebox {
+    -fx-alignment: CENTER;
+    -fx-pref-height: 41.0;
+    -fx-pref-width: 182.0;
+    -fx-padding: 0 0 0 45.0;
+}
+
+#individualButton {
+    -fx-background-radius: 10;
+    -fx-pref-width: 20;
+    -fx-pref-height: 20;
+    -fx-max-height: 20;
+}
+
+#groupButton {
+    -fx-background-radius: 10;
+    -fx-pref-width: 20;
+    -fx-pref-height: 20;
+    -fx-max-height: 20;
+}
+
+#everyoneButton {
+    -fx-background-radius: 10;
+    -fx-pref-width: 20;
+    -fx-pref-height: 20;
+    -fx-max-height: 20;
+}
+
+#exitButton {
+    -fx-background-color: transparent;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-size: 18.0;
+}
+
+#individual {
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 0.0;
+    -fx-wrap-text: 107.470703125;
+    -fx-font-family: Marlett;
+    -fx-font-size: 19.0;
+}
+
+#group {
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 0.0;
+    -fx-wrap-text: 107.470703125;
+    -fx-font-family: Marlett;
+    -fx-font-size: 19.0;
+}
+
+#everyone {
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 0.0;
+    -fx-wrap-text: 107.470703125;
+    -fx-font-family: Marlett;
+    -fx-font-size: 19.0;
+}
+
+#clientListView {
+    -fx-pref-height: 200.0;
+    -fx-pref-width: 285.0;
+}
+
+.text-field {
+    -fx-pref-height: 25.0;
+    -fx-pref-width: 285.0;
+}
+
+#whosOnline {
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 0.0;
+    -fx-wrap-text: 107.470703125;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-size: 12.0;
+}
+
+#allClientsList {
+    -fx-background-color: #f0b4c6;
+    -fx-fill: #f0b4c6;
+    -fx-pref-height: 60.0;
+    -fx-pref-width: 100.0;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-size: 11.0;
+    -fx-selection-bar: #cf6d6d;
+    -fx-selection-bar-non-focused: #cf6d6d;
+}
+
+#allClientsList .scroll-bar {
+    -fx-background-color: #f0b4c6;
+    -fx-fill: #f0b4c6;
+}
+
+#allClientsList .scroll-bar:horizontal .thumb,
+#allClientsList .scroll-bar:vertical .thumb {
+    -fx-background-color:derive(#f0b4c6, 0%);
+    -fx-background-insets: 2, 0, 0;
+    -fx-background-radius: 2em;
+
+}
+
+#allClientsList .increment-button , #allClientsList .decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+}
+
+#allClientsList .list-cell{
+    -fx-background-color: #f0b4c6;
+    -fx-fill: #f0b4c6;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-size: 11.0;
+    -fx-selection-bar: #cf6d6d;
+    -fx-selection-bar-non-focused: #cf6d6d;
+}
+
+#allClientsList .list-cell:pressed {
+    -fx-background-color: #cf6d6d;
+    -fx-fill: #cf6d6d;
+    -fx-selection-bar: #cf6d6d;
+    -fx-selection-bar-non-focused: #cf6d6d;
+}
+#allClientsList .list-cell:selected {
+    -fx-background-color: #cf6d6d;
+    -fx-fill: #cf6d6d;
+    -fx-selection-bar: #cf6d6d;
+    -fx-selection-bar-non-focused: #cf6d6d;
+}
+
+#sendButton {
+    -fx-background-color: #cf6d6d;
+    -fx-text-fill: white;
+    -fx-font-family: "Eras Light ITC";
+    -fx-font-size: 16.0;
+    -fx-font-weight: BOLD;
+    -fx-pref-height: 25.0;
+    -fx-pref-width: 35;
+    -fx-padding: 0 0 0 0;
+}
+
+#recipients {
+    -fx-fill: "#cf6d6d";
+    -fx-stroke-type: OUTSIDE;
+    -fx-stroke-width: 0.0;
+    -fx-text-alignment: CENTER;
+    -fx-alignment: CENTER;
+    -fx-wrap-text: 620.0;
+    -fx-font-family: Marlett;
+    -fx-font-size: 11.0;
+    -fx-font-weight: BOLD;
+}
